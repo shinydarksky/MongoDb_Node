@@ -20,6 +20,9 @@ app.use(express.static('./public'))
 //     }
 // )
 app.get('/',(req,res)=>res.render('Home.ejs'))
+app.get('/login',(req,res)=>{
+    res.render('Login.ejs')
+})
 app.listen(3000,()=>{
     console.log(`Start server port ${3000}`)
 })

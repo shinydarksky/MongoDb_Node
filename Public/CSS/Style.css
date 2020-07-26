@@ -16,3 +16,17 @@
     height: 230px;
 }
 
+.backgound{
+    background-image:url('/IMG/background-login.png') ;
+    background-size: cover;
+    height: 1000px;
+    z-index: 100;
+}
+
+.login{
+    z-index: 200;
+}
+
+.login-box{
+    width: 350px;
+}
