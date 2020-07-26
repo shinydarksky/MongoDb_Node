@@ -1,0 +1,18 @@
+.container-box{
+    background-color: #E0E8EF;
+    height: 650px;
+}
+.container-space{
+    background-color:white;
+    height: 560px;
+}
+
+.list{
+    list-style-type: upper-alpha;
+}
+
+.img_pc{
+    width: 400px;
+    height: 230px;
+}
+
